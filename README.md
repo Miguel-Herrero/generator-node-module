@@ -26,22 +26,9 @@ yo madoos-node-module
 
 ## npm scripts
 
- * `test:linter:show`
+ * `test:linter:show` Show in console
  * `test:unit:show`
  * `test:cover:show`
- * `test:linter:report`
+ * `test:linter:report`  Generates a file for jenkins
  * `test:unit:report`
  * `test:cover:report`
-
-
-## License
-
-MIT © [Maurice Ronet Dominguez](https://github.com/madoos/)
-
-
-[npm-image]: https://badge.fury.io/js/generator-madoos-node-module.svg
-[npm-url]: https://npmjs.org/package/generator-madoos-node-module
-[travis-image]: https://travis-ci.org/madoos/generator-madoos-node-module.svg?branch=master
-[travis-url]: https://travis-ci.org/madoos/generator-madoos-node-module
-[daviddm-image]: https://david-dm.org/madoos/generator-madoos-node-module.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/madoos/generator-madoos-node-module
