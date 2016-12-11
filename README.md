@@ -1,4 +1,4 @@
-# generator-madoos-node-module ravis-url]
+# generator-madoos-node-module
 
 > Basic generator for node moule
 
