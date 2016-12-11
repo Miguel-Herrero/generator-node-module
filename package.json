@@ -1,6 +1,6 @@
 {
   "name": "generator-madoos-node-module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Basic generator for node moule",
   "homepage": "https://github.com/madoos/generator-node-module",
   "author": {
@@ -13,12 +13,13 @@
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "node-module",
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.23.0",
     "chalk": "^1.0.0",
+    "madoos-yo-helper": "0.0.1",
+    "yeoman-generator": "^0.23.0",
     "yosay": "^1.0.0"
   },
   "devDependencies": {
