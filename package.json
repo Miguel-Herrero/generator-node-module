@@ -42,7 +42,7 @@
       "mocha": true
     }
   },
-  "repository": "madoos/generator-madoos-node-module",
+  "repository": "madoos/generator-node-module",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
