@@ -1,6 +1,13 @@
 # generator-madoos-node-module
 
-> Basic generator for node moule
+Basic generator of a node module
+
+## It includes
+
+ * Unit test with mocha and chai
+ * Cover whit istanbul
+ * Standard code style
+ * Jenkins integration
 
 ## Installation
 
@@ -17,12 +24,15 @@ Then generate your new project:
 yo madoos-node-module
 ```
 
-## Getting To Know Yeoman
+## npm scripts
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+ * `test:linter:show`
+ * `test:unit:show`
+ * `test:cover:show`
+ * `test:linter:report`
+ * `test:unit:report`
+ * `test:cover:report`
+
 
 ## License
 
