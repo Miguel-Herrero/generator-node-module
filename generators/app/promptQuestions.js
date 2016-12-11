@@ -31,6 +31,18 @@ module.exports = function () {
       name: 'author',
       message: 'Author',
       default: 'Maurice Ronet Dominguez'
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Email',
+      default: 'maurice.ronet.dominguez@gmail.com'
+    },
+    {
+      type: 'input',
+      name: 'url',
+      message: 'Page url',
+      default: 'https://github.com/madoos/'
     }
   ];
 

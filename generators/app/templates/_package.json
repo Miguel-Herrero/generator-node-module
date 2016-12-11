@@ -19,7 +19,11 @@
   "keywords": [
     "lib"
   ],
-  "author": "<%= author %>",
+   "author": {
+    "name": "<%= author %>",
+    "email": "<%= email %>",
+    "url": "<%= url %>"
+  },
   "license": "MIT",
   "bugs": {
     "url": "<%= gitrepository %>/issues"
