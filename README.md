@@ -1,4 +1,5 @@
-# generator-madoos-node-module [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-madoos-node-module ravis-url]
+
 > Basic generator for node moule
 
 ## Installation
