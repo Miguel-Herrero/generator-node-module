@@ -3,7 +3,7 @@ module.exports = function () {
     type: 'input',
     name: 'name',
     message: 'Your project name',
-    default: this.appname // Default to current folder name
+    default: this.appname.split(' ').join('-') // Default to current folder name
   };
 
   const questions = [
