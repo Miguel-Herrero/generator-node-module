@@ -1,9 +1,12 @@
+const username = require('git-user-name');
+const email = require('git-user-email');
+
 module.exports = function () {
   const getAppName = {
     type: 'input',
     name: 'name',
     message: 'Your project name',
-    default: this.appname.split(' ').join('-') // Default to current folder name
+    default: this.appname // Default to current folder name
   };
 
   const questions = [
@@ -30,13 +33,13 @@ module.exports = function () {
       type: 'input',
       name: 'author',
       message: 'Author',
-      default: 'Maurice Ronet Dominguez'
+      default: username()
     },
     {
       type: 'input',
       name: 'email',
       message: 'Email',
-      default: 'maurice.ronet.dominguez@gmail.com'
+      default: email() || 'maurice.ronet.dominguez@gmail.com'
     },
     {
       type: 'input',
