@@ -4,8 +4,8 @@ Basic generator of a node module
 
 ## It includes
 
- * Unit test with mocha and chai
- * Cover whit istanbul
+ * Unit test with Mocha and Chai
+ * Cover whit Istanbul
  * Standard code style
  * Jenkins integration
 
@@ -24,11 +24,16 @@ Then generate your new project:
 yo madoos-node-module
 ```
 
-## npm scripts
+## Run test
 
- * `test:linter:show` Show in console
- * `test:unit:show`
- * `test:cover:show`
- * `test:linter:report`  Generates a file for jenkins
- * `test:unit:report`
- * `test:cover:report`
+ * `npm test`
+ * `npm run test:linter:show`
+ * `npm run test:unit:show`
+ * `npm run test:cover:show`
+
+## Run test and generate report files
+
+ * `npm run test:report`
+ * `npm run test:linter:report`
+ * `npm run test:unit:report`
+ * `npm run test:cover:report`
