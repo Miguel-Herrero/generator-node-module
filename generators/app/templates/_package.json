@@ -4,6 +4,7 @@
   "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
+    "test": "npm run test:linter:show && npm run test:unit:show",
     "test:linter:show": "./bin/test/linter-show",
     "test:unit:show": "./bin/test/unit-show",
     "test:cover:show": "./bin/test/cover-show",
