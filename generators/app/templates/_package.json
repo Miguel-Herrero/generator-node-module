@@ -11,13 +11,14 @@
     "test:cover:show": "./bin/test/cover-show",
     "test:linter:report": "./bin/test/linter-report",
     "test:unit:report": "./bin/test/unit-report",
-    "test:cover:report": "./bin/test/cover-report"
+    "test:cover:report": "./bin/test/cover-report",
+    "serve:coverage": "./bin/util/serve-coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+<%= gitrepository %>"
   },
-  
+
   "keywords": [
     "lib"
   ],
@@ -35,7 +36,8 @@
     "chai": "^3.5.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "standard": "^8.6.0"
+    "standard": "^8.6.0",
+    "http-server": "^0.9.0"
   },
 
   "standard":  {
