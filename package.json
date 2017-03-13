@@ -1,6 +1,6 @@
 {
   "name": "generator-madoos-node-module",
-  "version": "0.10.3",
+  "version": "0.10.4",
   "description": "Basic generator of a node module",
   "homepage": "https://github.com/madoos/generator-node-module",
   "author": {
