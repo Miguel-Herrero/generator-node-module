@@ -1,6 +1,6 @@
 # <%= name %>
 
-<%= description %>
+_<%= description %>_
 
 ## Getting Started
 
@@ -14,16 +14,13 @@ In your project:
  // => Example
 ```
 
-## Run test
+## npm scripts
 
- * `npm test`
- * `npm run test:linter:show`
- * `npm run test:unit:show`
- * `npm run test:cover:show`
-
-## Run test and generate report files
-
- * `npm run test:report`
- * `npm run test:linter:report`
- * `npm run test:unit:report`
- * `npm run test:cover:report`
+   * `tes`
+   * `test:unit`
+   * `test:int`
+   * `cove`
+   * `cover:unit`
+   * `lint`
+   * `serve:coverage`
+   * `serve:linter`
