@@ -4,15 +4,14 @@
   "description": "<%= description %>",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:linter:show && npm run test:unit:show",
-    "test:report": "npm run test:linter:report && npm run test:unit:report && npm run test:cover:report",
-    "test:linter:show": "./bin/test/linter-show",
-    "test:unit:show": "./bin/test/unit-show",
-    "test:cover:show": "./bin/test/cover-show",
-    "test:linter:report": "./bin/test/linter-report",
-    "test:unit:report": "./bin/test/unit-report",
-    "test:cover:report": "./bin/test/cover-report",
-    "serve:coverage": "./bin/util/serve-coverage"
+    "test": "npm run lint && npm run cover:unit",
+    "test:unit": "./bin/test/unit",
+    "test:int": "./bin/test/int",
+    "cover": "./bin/test/cover",
+    "cover:unit": "./bin/test/cover-unit",
+    "lint": "./bin/test/linter",
+    "serve:coverage": "./bin/serve/coverage",
+    "serve:linter": "./bin/serve/linter"
   },
   "repository": {
     "type": "git",

@@ -2,9 +2,9 @@
 
 node {
 
-    def GITHUB_USER = "abatiz"
-    def GITHUB_REPO = "case-alerts-AMQ"
-    def DOCKER_IMAGE_BASE_NAME = "case/alerts"
+    def GITHUB_USER = "CHANGE"
+    def GITHUB_REPO = "CHANGE"
+    def DOCKER_IMAGE_BASE_NAME = "CHANGE/CHANGE"
     def GITHUB_BRANCH = env.BRANCH_NAME
     def GITHUB_TOKEN =  env.GITHUB_TOKEN
     def NPM_TOKEN = env.NPM_TOKEN
